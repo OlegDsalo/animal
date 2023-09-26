@@ -1,0 +1,23 @@
+<!--<div class="card">-->
+<!--  <img class="card_img" src="assets/animals/{{animal.photo}}.jpg" alt="">-->
+<!--  <div class="card_name">{{animal.name}}</div>-->
+<!--  <div class="card_text">Age:{{animal.age}}</div>-->
+<!--  <div class="card_text">Breed:{{animal.breed}}</div>-->
+<!--  <div class="card_text">Neutered:{{animal.neutered}}</div>-->
+<!--  <a class="card_profile_link" [routerLink]="animal.id" >Profile</a>-->
+<!--</div>-->
+<mat-card class="animal_card">
+  <img class="card_img" mat-card-image src='assets/animals/{{animal.photo}}.jpg' alt="{{animal.name}}">
+  <div class="card_description">
+    <mat-card-title>{{animal.name}}</mat-card-title>
+    <mat-card-subtitle>Age: {{animal.age}}</mat-card-subtitle>
+    <mat-card-content>
+      <p>Breed: {{animal.breed}}</p>
+      <p>Neutered: {{animal.neutered}}</p>
+    </mat-card-content>
+  </div>
+  <mat-card-actions *ngIf="!animal.adopted" class="card_profile_button" >
+    <a  mat-button [routerLink]="animal.id">Profile</a>
+  </mat-card-actions>
+  <div *ngIf="animal.adopted">Animal is adopted</div>
+</mat-card>

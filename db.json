@@ -1,0 +1,235 @@
+{
+  "animals": [
+    {
+      "id": "1",
+      "type": "Cat",
+      "name": "Vex",
+      "photo": "cat_1",
+      "age": "2 Years",
+      "gender": "Male",
+      "breed": "Domestic Longhair,Mix",
+      "neutered": "Neutered",
+      "adopted": false
+    },
+    {
+      "id": "2",
+      "type": "Cat",
+      "name": "Oliver Reed",
+      "photo": "cat_2",
+      "age": "5 Years",
+      "gender": "Female",
+      "breed": "Domestic Shorthair,Mix",
+      "neutered": "Neutered",
+      "adopted": false
+    },
+    {
+      "id": "3",
+      "type": "Cat",
+      "name": "Bertha",
+      "photo": "cat_3",
+      "age": "9 Years 4 Months",
+      "gender": "Male",
+      "breed": "Domestic Shorthair,Mix",
+      "neutered": "Neutered",
+      "adopted": false
+    },
+    {
+      "id": "4",
+      "type": "Cat",
+      "photo": "cat_4",
+      "name": "Saturn",
+      "age": "5 Years 11 Months",
+      "gender": "Male",
+      "breed": "Domestic Medium Hair,Mix",
+      "neutered": "Neutered",
+      "adopted": false
+    },
+    {
+      "id": "6",
+      "type": "Cat",
+      "photo": "cat_5",
+      "name": "Bobby Dazzler",
+      "age": "6 Years 6 Months",
+      "gender": "Male",
+      "breed": "Domestic Shorthair,Mix",
+      "neutered": "Neutered",
+      "adopted": false
+    },
+    {
+      "id": "7",
+      "type": "Dog",
+      "photo": "dog_2",
+      "name": "Domme",
+      "age": "3 Years 11 Months",
+      "gender": "Male",
+      "breed": "German Shepherd,Mix",
+      "neutered": "Neutered",
+      "adopted": false
+    },
+    {
+      "id": "8",
+      "type": "Dog",
+      "photo": "dog_3",
+      "name": "Rogers",
+      "age": "4 Years 9 Months",
+      "gender": "Male",
+      "breed": "Shepherd,Mix",
+      "neutered": "Neutered",
+      "adopted": false
+    },
+    {
+      "id": "9",
+      "type": "Dog",
+      "photo": "dog_2",
+      "name": "Sven",
+      "age": "2 Years 7 Months",
+      "gender": "Male",
+      "breed": "Cur, Mountain,Mix",
+      "neutered": "Neutered",
+      "adopted": false
+    },
+    {
+      "id": "10",
+      "type": "Dog",
+      "photo": "dog_4",
+      "name": "Scully",
+      "age": "5 Years 6 Months",
+      "gender": "Female",
+      "breed": "German Shepherd,Retriever",
+      "neutered": "Spayed",
+      "adopted": false
+    },
+    {
+      "id": "11",
+      "type": "Dog",
+      "photo": "dog_5",
+      "name": "Tia Malina",
+      "age": "8 Years 5 Months",
+      "gender": "Male",
+      "breed": "Chihuahua, Short Coat,Mix",
+      "neutered": "Spayed",
+      "adopted": false
+    },
+    {
+      "id": "13",
+      "type": "Dog",
+      "photo": "dog_5",
+      "name": "Tia Malina",
+      "age": "8 Years 5 Months",
+      "gender": "Male",
+      "breed": "Chihuahua, Short Coat,Mix",
+      "neutered": "Spayed",
+      "adopted": false
+    },
+    {
+      "id": "123",
+      "type": "Cat",
+      "name": "Vex",
+      "photo": "cat_1",
+      "age": "2 Years",
+      "gender": "Male",
+      "breed": "Domestic Longhair,Mix",
+      "neutered": "Neutered",
+      "adopted": false
+    },
+    {
+      "id": "689",
+      "type": "Cat",
+      "name": "Oliver Reed",
+      "photo": "cat_2",
+      "age": "5 Years",
+      "gender": "Female",
+      "breed": "Domestic Shorthair,Mix",
+      "neutered": "Neutered",
+      "adopted": false
+    },
+    {
+      "id": "906",
+      "type": "Cat",
+      "name": "Bertha",
+      "photo": "cat_3",
+      "age": "9 Years 4 Months",
+      "gender": "Male",
+      "breed": "Domestic Shorthair,Mix",
+      "neutered": "Neutered",
+      "adopted": false
+    },
+    {
+      "id": "6xxs",
+      "type": "Cat",
+      "photo": "cat_4",
+      "name": "Saturn",
+      "age": "5 Years 11 Months",
+      "gender": "Male",
+      "breed": "Domestic Medium Hair,Mix",
+      "neutered": "Neutered",
+      "adopted": false
+    },
+    {
+      "id": "saa6",
+      "type": "Cat",
+      "photo": "cat_5",
+      "name": "Bobby Dazzler",
+      "age": "6 Years 6 Months",
+      "gender": "Male",
+      "breed": "Domestic Shorthair,Mix",
+      "neutered": "Neutered",
+      "adopted": false
+    },
+    {
+      "id": "assa",
+      "type": "Dog",
+      "photo": "dog_2",
+      "name": "Domme",
+      "age": "3 Years 11 Months",
+      "gender": "Male",
+      "breed": "German Shepherd,Mix",
+      "neutered": "Neutered",
+      "adopted": false
+    },
+    {
+      "id": "890s",
+      "type": "Dog",
+      "photo": "dog_3",
+      "name": "Rogers",
+      "age": "4 Years 9 Months",
+      "gender": "Male",
+      "breed": "Shepherd,Mix",
+      "neutered": "Neutered",
+      "adopted": false
+    },
+    {
+      "id": "56sadas",
+      "type": "Dog",
+      "photo": "dog_2",
+      "name": "Sven",
+      "age": "2 Years 7 Months",
+      "gender": "Male",
+      "breed": "Cur, Mountain,Mix",
+      "neutered": "Neutered",
+      "adopted": false
+    },
+    {
+      "id": "asdsada",
+      "type": "Dog",
+      "photo": "dog_5",
+      "name": "Tia Malina",
+      "age": "8 Years 5 Months",
+      "gender": "Male",
+      "breed": "Chihuahua, Short Coat,Mix",
+      "neutered": "Spayed",
+      "adopted": false
+    },
+    {
+      "id": "45678",
+      "type": "Dog",
+      "photo": "dog_5",
+      "name": "Tia Malina",
+      "age": "8 Years 5 Months",
+      "gender": "Male",
+      "breed": "Chihuahua, Short Coat,Mix",
+      "neutered": "Spayed",
+      "adopted": false
+    }
+  ]
+}

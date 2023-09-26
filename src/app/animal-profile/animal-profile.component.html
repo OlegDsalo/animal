@@ -1,0 +1,25 @@
+<app-loader *ngIf="isLoading"></app-loader>
+<ng-container *ngIf="!isLoading">
+  <div class="header_button">
+    <button [routerLink]="'/animals'" mat-raised-button color="primary">Home</button>
+  </div>
+
+  <div class="animal-profile">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{ animal.name }}</mat-card-title>
+        <mat-card-subtitle>{{ animal.type }}</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="assets/animals/{{animal.photo}}.jpg" alt="{{ animal.name }}"/>
+      <mat-card-content>
+        <p>Age: {{ animal.age }}</p>
+        <p>Gender: {{ animal.gender }}</p>
+        <p>Breed: {{ animal.breed }}</p>
+        <p>Neutered: {{ animal.neutered }}</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button *ngIf="!adopted" mat-button color="accent" (click)="adoptAnimal()">Adopt Me!</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</ng-container>

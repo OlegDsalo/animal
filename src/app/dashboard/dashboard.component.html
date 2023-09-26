@@ -1,0 +1,51 @@
+<div class="container">
+  <div class="filters">
+    <mat-form-field class="example-full-width">
+      <mat-label>Search by Name or Breed</mat-label>
+      <input matInput placeholder="Search" [(ngModel)]="searchQuery" (input)="filter()">
+    </mat-form-field>
+    <div>
+      <div>
+        <label id="type-radio">Pick animal type</label>
+      </div>
+      <mat-radio-group [(ngModel)]="selectedType" (ngModelChange)="filter()" aria-label="Select an option">
+        <mat-radio-button class="example-radio-button" value="Cat">Cat</mat-radio-button>
+        <mat-radio-button class="example-radio-button" value="Dog">Dog</mat-radio-button>
+        <mat-radio-button class="example-radio-button" value="">All</mat-radio-button>
+      </mat-radio-group>
+    </div>
+
+    <div>
+      <div>
+        <label id="gender-radio">Pick animal gender</label>
+      </div>
+      <mat-radio-group [(ngModel)]="selectedGender" (ngModelChange)="filter()" aria-label="Select an option">
+        <mat-radio-button class="example-radio-button" value="Male">Male</mat-radio-button>
+        <mat-radio-button class="example-radio-button" value="Female">Female</mat-radio-button>
+        <mat-radio-button class="example-radio-button" value="">All</mat-radio-button>
+      </mat-radio-group>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <app-loader *ngIf="isLoading"></app-loader>
+
+    <div *ngIf=" !isLoading && animals.length === 0" class="empty_state">
+      <div class="empty_state_text">No Results Found</div>
+    </div>
+    <div class="list" *ngIf="!isLoading">
+      <app-card *ngFor="let animal of animals" [animal]="animal">
+      </app-card>
+    </div>
+    <mat-paginator *ngIf="!isLoading && animals.length >9"
+                   [length]="20"
+                   [pageSize]="10"
+                   [hidePageSize]="true"
+                   (page)="handlePageChange($event)"
+                   aria-label="Select page">
+    </mat-paginator>
+  </div>
+  <div>
+
+  </div>
+</div>

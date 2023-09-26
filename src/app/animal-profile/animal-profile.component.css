@@ -1,0 +1,26 @@
+.profile_container{
+  margin: 0 auto;
+}
+.animal-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+mat-card {
+  padding: 0 20px 20px;
+  width: 350px;
+}
+
+img {
+  max-width: 100%;
+  margin: 10px;
+}
+
+
+.header_button{
+  margin: 20px auto 0;
+  display: flex;
+  justify-content: center;
+}
